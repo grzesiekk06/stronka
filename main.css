@@ -1,0 +1,32 @@
+body
+{
+    background-color: grey;
+}
+.nav-item
+{
+    border-right: solid 2px #677443;
+    min-width: 100px;
+    text-align: center;
+}
+.nav-item:first-child
+{
+    border-left: solid 2px #677443;
+}
+.row-jumbotron
+{
+    min-height: 500px;
+}
+
+@media (max-width: 768px)
+{
+    .nav-item
+    {
+        border-bottom: solid 2px #677443;
+        border-right: none;
+    }
+    .nav-item:first-child
+    {
+        border-top: solid 2px #677443;
+        border-left: none; 
+    }
+}
